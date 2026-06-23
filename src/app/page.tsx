@@ -1,25 +1,25 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
+import HeroSection from "@/components/HeroSection";
 import About from "@/components/About";
-import Skills from "@/components/Skills";
-import Experience from "@/components/Experience";
-import Projects from "@/components/Projects";
-import Achievements from "@/components/Achievements";
-import Certifications from "@/components/Certifications";
-import Footer from "@/components/Footer";
+import TerminalSection from "@/components/TerminalSection";
+import ProjectsShowcase from "@/components/ProjectsShowcase";
+import AIAssistantDemo from "@/components/AIAssistantDemo";
+import SkillNodes from "@/components/SkillNodes";
+import AchievementsDashboard from "@/components/AchievementsDashboard";
+import EnhancedFooter from "@/components/EnhancedFooter";
 
 export default function Home() {
   return (
     <main className="relative">
       <Navbar />
-      <Hero />
+      <HeroSection />
       <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      <Achievements />
-      <Certifications />
-      <Footer />
+      <SkillNodes />
+      <TerminalSection />
+      <ProjectsShowcase />
+      <AIAssistantDemo />
+      <AchievementsDashboard />
+      <EnhancedFooter />
     </main>
   );
 }

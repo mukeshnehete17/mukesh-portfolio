@@ -7,10 +7,10 @@ import Magnetic from "./Magnetic";
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
-  { label: "Experience", href: "#experience" },
+  { label: "Terminal", href: "#terminal" },
   { label: "Projects", href: "#projects" },
-  { label: "Achievements", href: "#achievements" },
-  { label: "Contact", href: "#contact" },
+  { label: "Dora AI", href: "#dora" },
+  { label: "Dashboard", href: "#achievements" },
 ];
 
 export default function Navbar() {
